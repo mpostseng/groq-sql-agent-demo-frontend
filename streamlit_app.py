@@ -1,8 +1,8 @@
 import streamlit as st
 import requests
 
-API_URL = st.secrets.get("API_URL") or "https://sql-chat-fastapi-demo.onrender.com"
-
+#API_URL = st.secrets.get("API_URL") or "https://sql-chat-fastapi-demo.onrender.com"
+API_URL = st.secrets.get("API_URL") or "https://groq-sql-agent-demo.onrender.com"
 st.title("🧠 SQL 智能問答系統（Groq + LangChain + PostgreSQL）")
 
 question = st.text_input("請輸入你的問題，例如：昨天的 API 請求數是多少？")
