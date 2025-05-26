@@ -20,6 +20,7 @@ if st.button("查詢") and question:
                 st.error(f"查詢錯誤：{data['error']}")
             else:
                 st.success("查詢成功！")
+                st.write(data)
                 st.write(data["result"])
         except Exception as e:
             st.error(f"發生錯誤：{e}")
