@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = st.secrets.get("API_URL") or "https://your-backend-url.onrender.com"
+API_URL = st.secrets.get("API_URL") or "https://sql-chat-fastapi-demo.onrender.com"
 
 st.title("🧠 SQL 智能問答系統（Groq + LangChain + PostgreSQL）")
 
